@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  bankml-opm:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - "./src:/opt/bankml/src"
+      - "./data:/opt/bankml/data"
+      - "./config:/opt/bankml/config"
+      - "./examples:/opt/bankml/examples"
+      - "./notebooks:/opt/bankml/notebooks"
+    tty: true
+    network_mode: "bridge"

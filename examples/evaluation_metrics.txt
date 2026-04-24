@@ -1,0 +1,19 @@
+============================================================
+Model Evaluation Results
+============================================================
+
+Overall Test Dataset Accuracy: 0.9829
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          No       0.99      0.99      0.99      2589
+         Yes       0.97      0.94      0.95       619
+
+    accuracy                           0.98      3208
+   macro avg       0.98      0.97      0.97      3208
+weighted avg       0.98      0.98      0.98      3208
+
+Confusion Matrix:
+[[2570   19]
+ [  36  583]]
